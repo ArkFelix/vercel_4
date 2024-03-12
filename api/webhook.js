@@ -1,6 +1,6 @@
 // api/webhook.js
 
-import { SmartAPI } from '../smartapi-javascript';
+const { SmartAPI } = require('smartapi-javascript');
 import logzero from 'logzero';
 import fs from 'fs';
 
